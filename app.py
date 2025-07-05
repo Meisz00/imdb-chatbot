@@ -23,7 +23,7 @@ selected_genres = st.multiselect(
 )
 
 min_rating = st.slider("Minimal Rating:", 0.0, 10.0, 7.0)
-keyword = st.text_input("Kata kunci dalam review (opsional):", "")
+keyword = st.text_input("Kata kunci bahasa inggris dalam review (opsional):", "")
 sentiment = st.selectbox("Sentimen review:", ["Any", "Positive", "Negative"])
 top_n = st.slider("Jumlah rekomendasi ditampilkan:", 1, 20, 5)
 
